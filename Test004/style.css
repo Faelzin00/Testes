@@ -8,13 +8,14 @@
 
 #read{
     background-color: black;
-    max-width: 1000px;
-
+    display: block;
+    padding: 10px;
+    
 }
 
 #read-pagina{
     max-width: 800px;
     height: 100%;
     margin: 0 auto;
-
 }
+
