@@ -15,7 +15,10 @@
 
 #read-pagina{
     max-width: 800px;
-    height: 100%;
     margin: 0 auto;
 }
 
+#read-pagina img{
+    width: 100%;
+    height: auto;
+}
