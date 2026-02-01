@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor de mangá</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="conteiner">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+    </header>
+    <main>
+        <div id="read">
+            <div id="read-pagina">
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        const reader = document.getElementById("read-pagina");
+
+        // quantidade de páginas
+        const totalPaginas = 18;
+        const pasta = "interno/ch-0001-pt-br-demon-sect";
+
+        for (let i = 1; i <= totalPaginas; i++) {
+        const img = document.createElement("img");
+        img.src = `${pasta}/${String(i).padStart(2, '0')}.jpg`;
+        reader.appendChild(img);
+        }
+    </script>
+</body>
+</html>

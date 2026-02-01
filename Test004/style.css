@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#read{
+    background-color: black;
+    max-width: 1000px;
+
+}
+
+#read-pagina{
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+
+}
